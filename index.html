@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Kumar | Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div id="sectionMainContainer">
+        <!-- Navbar -->
+        <header>
+            <div class="container">
+                <div class="logo">VK</div>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Home Section -->
+        <section id="home" class="home-section">
+            <div class="container home-content">
+                <h1>Hello, I'm Vivek Kumar</h1>
+                <p>Frontend Developer | MERN Stack Enthusiast | Problem Solver</p>
+                <a href="#contact" class="btn">Hire Me</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I'm a passionate web developer specializing in building responsive and interactive web applications. I love creating clean and user-friendly designs that enhance the user experience.</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill">HTML</div>
+                    <div class="skill">CSS</div>
+                    <div class="skill">JavaScript</div>
+                    <div class="skill">React JS</div>
+                    <div class="skill">Python</div>
+                    <div class="skill">Java</div>
+                    <div class="skill">My SQL</div>
+                    <div class="skill">Basic DSA</div>
+                    <div class="skill">Overview of Node.js & Express.js</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card" onclick="project1section()">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREpAy4WEFhba5a6MBpucv_Vq8MVoX5g3oAjA&s" class="img" />
+                        <p>A modern responsive website built with HTML, CSS, JS.</p>
+                    </div>
+                    <div class="project-card" onclick="project2section()">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3KtH18YcqgFdYN0AnXRhyFHiqhuiXSAyrJQ&s" class="img" />
+                        <p>A modern responsive website built with React App</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Project1 Section -->
+        <section id="project1" class="project-section-container project1section">
+            <div>
+                <h1 onclick="display('sectionMainContainer')">HTML CSS JS AND BOOTSTRAP PROJECTS</h1>
+                <div class="project-container">
+                    <a href="https://vivek-kumar-027.github.io/FoodProject/" target="_blank" class="project-navigation-link">Food Munch Website</a>
+                </div>
+
+                <button onclick="showsection()">Back</button>
+            </div>
+        </section>
+
+
+        <!-- React js Project2  Section -->
+        <section id="project2" class="project-section-container project2section">
+            <div>
+                <h1 onclick="display('sectionMainContainer')">React js Projects</h1>
+                <div class="project-container">
+                    <a href="https://www.youtube.com/" target="_blank" class="project-navigation-link">Open Youtube</a>
+                </div>
+
+                
+                <button onclick="showsection()">Back</button>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 Vivek Kumar. All Rights Reserved.</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+
+</body>
+
+</html>
