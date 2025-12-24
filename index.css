@@ -179,16 +179,15 @@ section {
 .project-container {
     background-color: #d2d5d9;
     height: 60px;
-
     padding-left: 20px;
     padding-top: 15px;
     border-radius: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
+    cursor:pointer;
 }
 
 .project-navigation-link {
-    text-decoration: none;
     color: #3d3e40;
     font-weight: bold;
     font-family: "Roboto";
